@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Otel Envanter Arama API'si
 Bu API, bir otelde oda ayırtmak isteyen kişiler için belirli tarih aralığında kişi sayısına uygun odaların fiyatlarını göstermektedir.
 
@@ -20,7 +19,3 @@ API'ye erişildiği zaman çift ve tek kişilik odaların fiyatlarını JSON for
 [{"roomCode":"STDSNGL","price":147.5},{"roomCode":"STDDBL","price":72}]
 ```
 
-=======
-# otelEnvanter
-Hotelspro Challenge için hazırlanan otel envanter arama API'si
->>>>>>> b97b39064f4505ee884bb266aead83bef5b970af
