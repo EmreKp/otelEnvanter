@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Request;
 use DB;
 
 class AnaKontroler extends Controller
 {
-    public function index(Request $request){
-		$req=$request->input();
+    public function index(){
+		$req=Request::input();
+		if(!Request::has("checkIn") || !Request::has("checkOut") || !Request::has("pax")){
+			return response("Hata: Parametrelerin hepsini girmeniz gerekmektedir.",400);
+		}
 		$checkIn=$req["checkIn"];
 		$checkOut=$req["checkOut"];
 		$pax=$req["pax"];
