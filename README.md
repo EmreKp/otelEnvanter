@@ -13,7 +13,7 @@ Buradaki parametrelerin anlamı:
 * **checkOut** - Otelden çıkış tarihi
 * **pax** - Odada kalacak kişi sayısı
 
-API'ye erişildiği zaman çift ve tek kişilik odaların fiyatlarını JSON formatında döndürür. Örnek bir sonuç şu şekildedir:
+API'ye erişildiği zaman çift ve tek kişilik uygun odaların fiyatlarını eğer ki herhangi bir odanın allotment değeri 0 değilse ve kişi sayısı uygunsa JSON formatında döndürür. Örnek bir sonuç şu şekildedir:
 
 ```
 [{"roomCode":"STDSNGL","price":147.5},{"roomCode":"STDDBL","price":72}]
