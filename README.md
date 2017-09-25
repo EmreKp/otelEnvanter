@@ -29,4 +29,5 @@ API'ye erişildiği zaman çift ve tek kişilik odaların fiyatlarını JSON for
 php artisan serve
 ```
 yazıp Enter tuşuna basarsanız server başlar. Servera http://localhost:8000/ adresinden erişebilirsiniz.
+
 4. Artık API çalışır durumda! Yukarıdaki parametreleri girerseniz verileri rahatlıkla alabilirsiniz.
